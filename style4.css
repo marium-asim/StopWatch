@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+   background-color: black;
+}
+#main
+{   font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+}
+#box{
+    position: absolute; 
+    top: 100px; 
+    left: 490px;
+}
+
+/*Styling h1*/
+#hour{
+    background-color: whitesmoke;
+    height: 90px;
+    width: 80px;
+    border: 3px solid grey;
+}
+#min{
+    background-color: whitesmoke;
+    height: 90px;
+    width: 80px;
+    margin-left: 15px;
+    border: 3px solid grey;
+}
+#sec{
+    background-color: whitesmoke;
+    height: 90px;
+    width: 80px;
+    margin-left: 15px;
+    border: 3px solid grey;
+}
+#msec{
+    background-color: whitesmoke;
+    height: 90px;
+    width: 80px;
+    margin-left: 15px;
+    border: 3px solid grey;
+}
+
+#heading{
+    color: white; 
+    margin-bottom: 0px; 
+    font-size: 40px;
+}
+
+/*Styling buttons*/
+#bt{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+button{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#start{
+    background-color: rgb(39, 180, 39);
+  
+}
+
+#pbtn
+{
+    background-color: yellow;
+}  
+
+#rbtn
+{
+    background-color: red;
+   
+}
+
+@media screen and (max-width:1200px)
+{
+    #box{
+        left: 300px;
+    }
+  
+}
+@media screen and (max-width:900px)
+{
+    #box{
+        left: 200px;
+    }
+    #tab{
+        width: 600px;
+    }
+    
+}
+@media screen and (max-width:650px)
+{
+    #box{
+        left: 80px;
+    }
+   #tab{
+       width: 500px;
+   }
+}
