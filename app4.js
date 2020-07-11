@@ -61,4 +61,7 @@ function reset()
     msecHead.innerHTML=msec;
     hourHead.innerHTML=hour;
     clearInterval(interval);
+    document.getElementById("start").disabled= false;
+    document.getElementById("pbtn").disabled=false;
+ 
 }
